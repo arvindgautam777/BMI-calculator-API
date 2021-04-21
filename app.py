@@ -4,7 +4,7 @@ from bmi import calculatingBMI
 app = Flask(__name__)
 
 class get:
-	#This class will accept the input from the user and return the desired output
+    #This class will accept the input from the user and return the desired output
     @app.route('/', methods = ['GET', 'POST'])
     def js_data():
     	#accepts the json request
