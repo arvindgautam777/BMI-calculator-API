@@ -2,8 +2,6 @@
 
 import json
 import requests
-
-import app
 from flask import json
 
 def test_index():
